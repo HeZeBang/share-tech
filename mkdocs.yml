@@ -60,6 +60,6 @@ plugins:
       locale: en
       type: datetime
   - git-committers:
-      enabled: true
+      enabled: !ENV [CI, false]
       repository: HeZeBang/share-tech
       branch: main
