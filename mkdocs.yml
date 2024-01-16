@@ -1,7 +1,7 @@
 site_name: ShareTech
 repo_url: https://github.com/HeZeBang/share-tech
 repo_name: ShareTech
-edit_uri: tree/master/docs
+edit_uri: blob/main/docs
 
 copyright: <p>本站所有资源均为同学自行贡献，所有资料分享仅限于个人学习和参考之用，请勿将通过该网站上获取的内容用于商业目的或违反学校规定的行为。</p><p>本网站不保留对分享内容的所有权，如有侵权，请联系管理员删除。任何人通过使用本网站上的内容所导致的任何争议和后果与本网站无关。</p>
 
@@ -14,6 +14,8 @@ theme:
     scheme: ShanghaiTech
   icon:
     repo: fontawesome/brands/github
+    edit: material/pencil-circle
+    view: material/eye
   features:
     - navigation.top
     - navigation.footer
