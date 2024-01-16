@@ -1,5 +1,8 @@
 mkdocs >= 1.5.3
-urllib3 >= 1.26.15
+
+# Vercel SSH Version is out of date :-(
+urllib3 == 1.26.15
+
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-git-committers-plugin-2
