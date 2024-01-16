@@ -1,0 +1,72 @@
+[data-md-color-scheme="ShanghaiTech"] {
+  --md-primary-fg-color:        #A30B19;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #A30B19;
+  --md-accent-fg-color:        #A30B19;
+  --md-typeset-a-color:        #f55a6a;
+}
+
+body { 
+  .infocard {
+    max-width: 70%;
+    height: auto;
+    border-radius: 15px;
+    background: rgba(163, 11, 25, 0.74);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+
+    .text {
+      flex-grow: 1;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      color: aliceblue;
+      font-weight: 900;
+      font-size: 1.2em;
+    }
+    
+    .subtitle {
+      font-size: .9em;
+      font-weight: 300;
+      color: rgba(240, 248, 255, 0.691);
+      margin-top: 5pt;
+      margin-bottom: 0pt;
+      border-bottom:rgba(240, 248, 255, 0.3) 1px solid;
+    }
+
+    .detail {
+      font-size: .8em;
+      font-weight: 500;
+      text-align: right;
+      margin-top: 3pt;
+      margin-bottom: 5pt;
+    }
+  }
+  
+  .infocard::before {
+    content: "";
+    background-image: url("/assets/school.svg");
+    background-size:contain;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -30%;
+    left: -20%;
+    border-radius: 50%;
+    border: 0px solid rgba(255, 255, 255, 0.102);
+    transition: all .8s ease;
+    filter: blur(.5rem);
+  }
+  
+  .infocard:hover::before {
+    width: 180px;
+    height: 180px;
+    top: -10%;
+    left: 70%;
+    opacity: 50%;
+    filter: blur(.1rem);
+  }
+}

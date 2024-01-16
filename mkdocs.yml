@@ -1,0 +1,65 @@
+site_name: ShareTech
+repo_url: https://github.com/HeZeBang/share-tech
+repo_name: ShareTech
+edit_uri: tree/master/docs
+
+copyright: <p>本站所有资源均为同学自行贡献，所有资料分享仅限于个人学习和参考之用，请勿将通过该网站上获取的内容用于商业目的或违反学校规定的行为。</p><p>本网站不保留对分享内容的所有权，如有侵权，请联系管理员删除。任何人通过使用本网站上的内容所导致的任何争议和后果与本网站无关。</p>
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  custom_dir: docs/overrides
+  palette:
+    scheme: ShanghaiTech
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress  
+    - navigation.tabs
+    - content.action.edit
+    - content.action.view
+
+extra_css:
+  - stylesheets/custom.css
+
+markdown_extensions:
+  - callouts
+  - footnotes
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      base_path: [!relative $config_dir]
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: "¶"
+
+plugins:
+  - search
+  - mkdocs-pdf
+  - git-revision-date-localized:
+      timezone: Asia/Shanghai
+      locale: en
+      type: datetime
+  - git-committers:
+      enabled: true
+      repository: HeZeBang/share-tech
+      branch: main

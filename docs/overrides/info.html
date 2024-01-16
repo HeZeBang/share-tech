@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% if page.meta.class or page.meta.code %}
+{% block htmltitle %}
+  <title>{{ page.meta.code }} {{ page.meta.class}}</title>
+{% endblock %}
+{% endif %}
+
+{% block content %}
+
+<div class="infocard">
+    <div class="text">
+        <span><img alt="ℹ" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@14.1.2/assets/svg/2139.svg" title=":information:">
+            课程基本信息</span>
+        {% if page.meta.class %}
+            <p class="subtitle">课程名称</p>
+        <p class="detail">{{ page.meta.class }}</p>
+        {% else %} {% endif %}
+        
+        {% if page.meta.code %}
+            <p class="subtitle">课程代码</p>
+        <p class="detail">{{ page.meta.code }}</p>
+        {% else %} {% endif %}
+
+        {% if page.meta.credits %}
+            <p class="subtitle">学分</p>
+        <p class="detail">{{ page.meta.credits }}</p>
+        {% else %} {% endif %}
+
+        {% if page.meta.instructor %}
+        <p class="subtitle">授课老师</p>
+        <p class="detail" id = "instructor"></p>
+        <script>
+            document.getElementById('instructor').innerHTML = {{ page.meta.instructor }}.join(", ");
+        </script>
+        {% else %} {% endif %}
+    </div>
+</div>
+<hr>
+{{ super() }}
+{% endblock %}
