@@ -30,9 +30,13 @@ title: 贡献
 
 ### 联系管理员
 
+!!! warning "监修中"
 
-> [!warning] 监修中
-> 该部分待完善
+    该部分待完善
+
+如有任何问题 / 纠纷，请点击
+
+[💬 提交 Discussion](https://github.com/HeZeBang/share-tech/discussions/new/choose){ .md-button }
 
 ## 注意事项
 
@@ -40,14 +44,13 @@ title: 贡献
 
 ## 攥写规范
 
-> [!warning] 监修中
-> 该部分待完善
+!!! warning "监修中"
+
+    该部分待完善
 
 ### 课程内容页
 
 关于课程详细内容界面，我们推荐使用使用手册中的 `课程页面模板` Markdown 文件。
-
-
 
 ## 协议
 

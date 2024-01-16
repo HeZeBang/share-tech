@@ -14,7 +14,7 @@ Website: https://sharetech.pages.dev
 
 > [!info] Info
 > 
-> All the resources are shared by students, and we **do not reserve ownership of the shared content**. If there is any infringement, please **contact the administrator or post issue** to remove it.
+> All the resources are shared by students, and we **do not reserve ownership of the shared content**. If there is any infringement, please **Contact the Administrator** or [**Post Discussion**](https://github.com/HeZeBang/share-tech/discussions/new/choose) to remove it.
 
 ## Getting Start
 

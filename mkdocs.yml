@@ -17,13 +17,13 @@ theme:
     edit: material/pencil-circle
     view: material/eye
   features:
+    - content.action.edit
+    - content.action.view
     - navigation.top
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress  
     - navigation.tabs
-    - content.action.edit
-    - content.action.view
 
 extra_css:
   - stylesheets/custom.css
