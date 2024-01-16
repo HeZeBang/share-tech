@@ -8,7 +8,7 @@ copyright: <p>本站所有资源均为同学自行贡献，所有资料分享仅
 theme:
   name: material
   logo: assets/logo.svg
-  favicon: assets/logo.svg
+  favicon: assets/xhdpi.png
   custom_dir: docs/overrides
   palette:
     scheme: ShanghaiTech
