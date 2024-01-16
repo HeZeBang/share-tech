@@ -3,3 +3,4 @@ mkdocs-material-extensions
 mkdocs-git-committers-plugin-2
 mkdocs-git-revision-date-localized-plugin
 mkdocs-pdf
+markdown-callouts
