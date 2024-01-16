@@ -6,13 +6,13 @@ We share documents, sldes, notes and so on.
 
 Website: https://sharetech.pages.dev
 
-> [!warning] Warning
+> [!Warning]
 > 
 > This website has been deployed to Cloudflare, the url link may be seen as harmful link by QQ or WeChat. Actually, we only provide sharing links, which will not thereten your safety.
 > 
 > If you want to visit our website, please copy the link and paste it to your browser.
 
-> [!info] Info
+> [!Important]
 > 
 > All the resources are shared by students, and we **do not reserve ownership of the shared content**. If there is any infringement, please **contact the administrator or post issue** to remove it.
 
