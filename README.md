@@ -2,7 +2,7 @@
 
 ShareTech is a resource sharing project of ShanghaiTech.
 
-We share documents, sldes, notes and so on.
+We share documents, slides, notes and so on.
 
 Website: https://sharetech.pages.dev
 
