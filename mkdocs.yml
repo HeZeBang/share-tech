@@ -24,6 +24,7 @@ theme:
     - navigation.instant
     - navigation.instant.progress  
     - navigation.tabs
+    - announce.dismiss
 
 extra_css:
   - stylesheets/custom.css

@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block announce %}
+  <span>ShareTech 正在建设中！欢迎访问我们的 <a href="https://github.com/HeZeBang/share-tech" title="Github Repo">Github 仓库</a>！</span>
+{% endblock %}
+
 {% if page.meta.class or page.meta.code %}
 {% block htmltitle %}
   <title>{{ page.meta.code }} {{ page.meta.class}}</title>
